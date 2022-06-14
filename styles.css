@@ -1,0 +1,175 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+}
+
+main{
+    margin-top: 75px;
+    margin-left: 35%;
+    width: 400px;
+    height: max-content;
+    background-color: white;
+    border-radius: 20px;
+}
+
+main img.top{
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px;
+    width: 400px;
+}
+
+article{
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px; 
+    padding-bottom: 20px;
+}
+
+h2{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.infos{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    opacity: 0.5;
+    font-size: 16px;
+}
+
+.price{
+    padding: 5px 5px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 65px;
+    width: 320px;
+}
+article h3{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 900;
+    margin-left: -80px;
+    margin-top: 10px;
+    font-size: 17px;
+    
+}
+img.bottom{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 10px;
+}
+
+.pnum{
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 70px;
+    opacity: 0.5;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+}
+.change{
+    position: absolute;
+    margin-top: -25px;
+    margin-left: 250px;
+    color: blue;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+.change:hover{
+    text-decoration: none;
+}
+
+.button{
+    background-color: blue;
+    padding: 10px;
+    width: 310px;
+    margin-left: 20px;
+    border-radius: 8px;
+    color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    box-shadow: 5px 5px;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+.cancel{
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    opacity: 0.5;
+}
+
+.cancel:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width : 447px) {
+    main{
+        margin-left: 15%;
+    }
+    
+}
+@media screen and (max-width : 770px) {
+    main{
+        margin-left: 25%;
+    }
+    
+}
+
+
+@media screen and (max-width : 560px) {
+    main{
+        margin-left: 7%;
+    }
+    
+}
+
+@media screen and (max-width : 460px) {
+    main{
+        
+        margin-left: 5%;
+        width: 320px;
+        
+    }
+
+
+    
+    main img.top{
+        width: 320px;
+    }
+
+    .price{
+        padding: 5px 5px;
+        margin-left: -5px;
+        height: 65px;
+        width: 280px;
+    }
+
+    .button{
+        margin-left: 5px;
+        width: 250px;
+        
+    }
+    article h3{
+        
+        margin-left: -50px;
+        margin-top: 10px;
+        
+    }
+
+    .change{
+        margin-left: 200px;
+    }
+    
+    img.bottom{
+        margin-left: -135px;
+    }
+}
